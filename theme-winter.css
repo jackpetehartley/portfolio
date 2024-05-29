@@ -1,0 +1,54 @@
+/* - - - - WINTER - - - - */
+body {
+  /*background-image: url(img/quadrant-top-winter.svg);*/
+  background-color: rgba(144, 202, 204, 0.08);
+}
+
+h1::after {
+  background: var(--mint);
+}
+
+.button {
+  background-image: linear-gradient(254deg, #90cca8, #90cacc);
+}
+
+.button:hover, .button:focus {
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.24), rgba(255, 255, 255, 0.24)), linear-gradient(254deg, #90cca8, #90cacc);
+}
+
+.button:active {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24)), linear-gradient(254deg, #90cca8, #90cacc);
+}
+
+.button.secondary {
+  color: var(--cloud);
+  border-color: var(--cloud);
+}
+
+.button.secondary:hover, .button.secondary:focus {
+  color: #aad6d8;
+  border-color: #aad6d8;
+}
+
+.button.secondary:active {
+  color: #6d999b;
+  border-color: #6d999b;
+}
+
+.grad-filter {
+  background-image: linear-gradient(225deg, #90cca8, var(--cloud));
+}
+
+.logo {
+  fill: var(--cloud);
+}
+
+.themes li.winter {
+  opacity: 1;
+  fill: var(--cloud);
+}
+
+.themes li.summer, .themes li.solstice {
+  opacity: .39;
+  fill: black;
+}

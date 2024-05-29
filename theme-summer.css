@@ -1,0 +1,54 @@
+/* - - - - SUMMER - - - - */
+body {
+  /*background-image: url(img/quadrant-top-summer.svg);*/
+  background-color: rgba(242, 185, 73, 0.04);
+}
+
+h1::after {
+  background: var(--mellow);
+}
+
+.button {
+  background-image: linear-gradient(254deg, #fcc277, #fc9877);
+}
+
+.button:hover, .button:focus {
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.24), rgba(255, 255, 255, 0.24)), linear-gradient(254deg, #fcc277, #fc9877);
+}
+
+.button:active {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24)), linear-gradient(254deg, #fcc277, #fc9877);
+}
+
+.button.secondary {
+  color: var(--melon);
+  border-color: var(--melon);
+}
+
+.button.secondary:hover, .button.secondary:focus {
+  color: #fcb097;
+  border-color: #fcb097;
+}
+
+.button.secondary:active {
+  color: #bf735a;
+  border-color: #bf735a;
+}
+
+.grad-filter {
+  background-image: linear-gradient(225deg, #fcc277, var(--melon));
+}
+
+.logo {
+  fill: var(--melon);
+}
+
+.themes li.summer {
+  opacity: 1;
+  fill: var(--melon);
+}
+
+.themes li.winter, .themes li.solstice {
+  opacity: .39;
+  fill: black;
+}
