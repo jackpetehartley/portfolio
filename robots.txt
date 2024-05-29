@@ -1,4 +1,3 @@
 User-agent: *
 Disallow: /docs/
 Disallow: /dev/
-Disallow: /portfolio/
