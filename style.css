@@ -30,7 +30,8 @@
   --imgmax: 100%;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -47,22 +48,26 @@ body {
   background-repeat: no-repeat;
 }
 
-nav ul, footer ul {
+nav ul,
+footer ul {
   margin: 0;
   padding: 0;
 }
 
-nav ul li, footer ul li {
+nav ul li,
+footer ul li {
   display: inline-block;
   vertical-align: middle;
   list-style: none;
 }
 
-nav ul li a, footer ul li a {
+nav ul li a,
+footer ul li a {
   display: block;
 }
 
-nav ul li a, footer ul li a {
+nav ul li a,
+footer ul li a {
   padding: 2.7rem 1rem;
 }
 
@@ -116,18 +121,29 @@ footer ul li svg {
   width: 3rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: normal;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-family: 'Gelasio', sans-serif;
 }
 
-h3, h4, h5, h6 {
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Overpass', sans-serif;
 }
-h3, h4 {
+
+h3,
+h4 {
   text-transform: uppercase;
 }
 
@@ -165,6 +181,7 @@ h5 {
   margin: 0 0 1rem;
   font-size: var(--h5);
 }
+
 h6 {
   margin: 0 0 .5rem;
   font-size: var(--h6);
@@ -209,7 +226,9 @@ img {
 .avatar {
   max-width: 9rem;
 }
-.avatar img, .avatar.grad-filter {
+
+.avatar img,
+.avatar.grad-filter {
   border-radius: 100%;
 }
 
@@ -227,19 +246,26 @@ img {
   border: 2px solid;
 }
 
-.button.secondary:link, .button.secondary:visited, .button.secondary:hover, .button.secondary:focus, .button.secondary:active {
+.button.secondary:link,
+.button.secondary:visited,
+.button.secondary:hover,
+.button.secondary:focus,
+.button.secondary:active {
   background: none;
 }
 
-.columns img, .columns .embed {
+.columns img,
+.columns .embed {
   max-width: none;
 }
 
 .embed {
   margin-bottom: 2.4rem;
   max-width: var(--imgmax);
-  max-height: calc(var(--imgmax) * .5625); /*(Ratio = 56.25% of width)*/
+  max-height: calc(var(--imgmax) * .5625);
+  /*(Ratio = 56.25% of width)*/
 }
+
 .embed-container {
   padding-bottom: 56.25%;
   max-width: 100%;
@@ -247,7 +273,10 @@ img {
   position: relative;
   overflow: hidden;
 }
-.embed-container iframe, .embed-container object, .embed-container embed {
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -292,6 +321,19 @@ img {
   float: left;
 }
 
+.brand-logos {
+  columns: 2;
+}
+
+.brand-logos li {
+  padding: 0;
+  background-image: none;
+}
+
+.brand-logos li svg {
+  fill: var(--blacker);
+}
+
 .projects li {
   margin-bottom: 2.4rem;
   padding: 0;
@@ -304,7 +346,8 @@ img {
   background-color: rgba(0, 0, 0, 0.04);
 }
 
-.projects li a:hover, .projects li a:active {
+.projects li a:hover,
+.projects li a:active {
   background-color: rgba(0, 0, 0, 0.08);
 }
 
@@ -338,11 +381,13 @@ body {
   color: var(--blacker);
 }
 
-nav ul li a:link, nav ul li a:visited {
+nav ul li a:link,
+nav ul li a:visited {
   color: var(--black);
 }
 
-nav ul li a:hover, nav ul li a.current {
+nav ul li a:hover,
+nav ul li a.current {
   color: var(--blackest);
 }
 
@@ -355,14 +400,20 @@ main ul li {
   background-image: url(img/bullet-black.svg);
 }
 
-footer:before, blockquote::before {
+footer:before,
+blockquote::before {
   background: var(--blackjust);
 }
 
-h1, h2, h5, h6 {
+h1,
+h2,
+h5,
+h6 {
   color: var(--blackest);
 }
-h3, h4 {
+
+h3,
+h4 {
   color: var(--black);
 }
 
@@ -370,11 +421,13 @@ h3, h4 {
   color: white;
 }
 
-.icon-list svg, .linkedin {
+.icon-list svg,
+.linkedin {
   fill: var(--black);
 }
 
-.linkedin:hover, .linkedin:focus {
+.linkedin:hover,
+.linkedin:focus {
   fill: var(--blacker);
 }
 
@@ -390,11 +443,13 @@ h3, h4 {
     background-color: var(--blackest);
   }
 
-  nav ul li a:link, nav ul li a:visited {
+  nav ul li a:link,
+  nav ul li a:visited {
     color: var(--white);
   }
 
-  nav ul li a:hover, nav ul li a.current {
+  nav ul li a:hover,
+  nav ul li a.current {
     color: var(--whitest);
   }
 
@@ -407,15 +462,20 @@ h3, h4 {
     background-image: url(img/bullet-white.svg);
   }
 
-  footer::before, blockquote::before {
+  footer::before,
+  blockquote::before {
     background: var(--whitejust);
   }
 
-  h1, h2 {
+  h1,
+  h2 {
     color: var(--whitest);
   }
 
-  h3, h4, h5, h6 {
+  h3,
+  h4,
+  h5,
+  h6 {
     color: var(--white);
   }
 
@@ -423,7 +483,10 @@ h3, h4 {
     background: var(--midnight);
   }
 
-  img, iframe, object, embed  {
+  img,
+  iframe,
+  object,
+  embed {
     opacity: .87;
   }
 
@@ -431,7 +494,8 @@ h3, h4 {
     background-image: linear-gradient(74deg, #9e7990, #92799e);
   }
 
-  .button:hover, .button:focus {
+  .button:hover,
+  .button:focus {
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.24), rgba(255, 255, 255, 0.24)), linear-gradient(74deg, #9e7990, #92799e);
   }
 
@@ -444,7 +508,8 @@ h3, h4 {
     border-color: var(--heather);
   }
 
-  .button.secondary:hover, .button.secondary:focus {
+  .button.secondary:hover,
+  .button.secondary:focus {
     color: white;
     border-color: #b599aa;
   }
@@ -458,11 +523,13 @@ h3, h4 {
     background-image: linear-gradient(45deg, var(--heather), #C4A0D4);
   }
 
-  .icon-list svg, .linkedin {
+  .icon-list svg,
+  .linkedin {
     fill: var(--white);
   }
 
-  .linkedin:hover, .linkedin:focus {
+  .linkedin:hover,
+  .linkedin:focus {
     fill: var(--whiteer);
   }
 
@@ -474,11 +541,16 @@ h3, h4 {
     fill: var(--heather);
   }
 
+  .brand-logos li svg {
+    fill: var(--whiter);
+  }
+
   .projects li a {
     background-color: rgba(255, 255, 255, 0.04);
   }
 
-  .projects li a:hover, .projects li a:active {
+  .projects li a:hover,
+  .projects li a:active {
     background-color: rgba(255, 255, 255, 0.08);
   }
 
@@ -491,7 +563,8 @@ h3, h4 {
     fill: var(--heather);
   }
 
-  .themes li.winter, .themes li.summer {
+  .themes li.winter,
+  .themes li.summer {
     opacity: .39;
     fill: white;
   }
@@ -514,7 +587,8 @@ h3, h4 {
     padding: 0 0 0 2rem
   }
 
-  h1::after, footer::before {
+  h1::after,
+  footer::before {
     width: 18rem;
   }
 
@@ -535,14 +609,20 @@ h3, h4 {
     width: 4.4rem;
   }
 
+  .brand-logos {
+    columns: 4;
+  }
+
   .projects {
     columns: 2;
   }
 
-  .projects li, .columns img, .columns .embed  {
+  .projects li,
+  .columns img,
+  .columns .embed {
     -webkit-column-break-inside: avoid;
-              page-break-inside: avoid;
-                   break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
   }
 
   .projects li a {
@@ -593,9 +673,11 @@ h3, h4 {
     --imgmax: 87rem;
   }
 
-  h1::after, footer::before {
+  h1::after,
+  footer::before {
     width: 36rem;
   }
+
   h1 {
     margin-bottom: 7.4rem;
   }
@@ -613,9 +695,14 @@ h3, h4 {
     width: 3rem;
   }
 
+  .brand-logos {
+    columns: 6;
+  }
+
   .projects {
     columns: 4;
   }
+
   .projects li a {
     padding: 3rem 0;
   }
